@@ -1,0 +1,30 @@
+.container{
+    margin: 25px;
+    display: grid;
+    grid-template-columns: 24% 24% 24% 24%;
+    grid-row-start: 15px;
+    justify-content: center;
+
+    a{
+        cursor: pointer;
+        color: aliceblue;
+        text-decoration: none;
+    }
+
+    .post-card{
+        background: #444;
+        color: aliceblue;
+        border-radius: 5px;
+        padding: 20px;
+        font-size: 150%;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        img{
+            height: 200px;
+        }
+        p{
+            //white-space: nowrap;
+            overflow: hidden;
+            text-overflow: ellipsis;
+        }
+    }
+}
