@@ -1,0 +1,11 @@
+{
+  "targets": {
+    "blog-447e9": {
+      "hosting": {
+        "blog": [
+          "blog-447e9"
+        ]
+      }
+    }
+  }
+}

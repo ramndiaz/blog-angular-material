@@ -1,1 +1,18 @@
-<p>post works!</p>
+
+
+
+<div class="container">
+    <mat-card class="post-card">
+        <mat-card-header>
+            <mat-card-title>
+                    {{post.titlePost}}
+            </mat-card-title>
+        </mat-card-header>
+        <img matCardImage [src]="post.imagePost" alt="image" >
+        <mat-card-content>
+            <p class="content">
+                {{post.contentPost}}
+            </p>
+        </mat-card-content>
+    </mat-card>
+</div>
